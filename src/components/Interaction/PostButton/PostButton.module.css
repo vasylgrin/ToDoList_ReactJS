@@ -1,0 +1,15 @@
+.postBtn{
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 10px 0;
+    background-color: #93f093;
+    border: 1px solid #008a00;
+    border-radius: 10px;
+    font-size: 20px;
+
+    transition: 0.2s background-color linear;
+}
+
+.postBtn:hover{
+    background-color: #008a00;
+}

@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1100px;
+  margin: 0 auto;;
+}
+
+.todo-enter {
+  transform: translateX(-2000px);
+}
+.todo-enter-active {
+  transform: translateX(0px);
+  transition: all 0.5s ease-in;
+}
+.todo-exit {
+  opacity: 1;
+}
+.todo-exit-active {
+  transform: translateX(2000px);
+  transition: all 0.5s ease-in;
+}
+
+
+/*THEMES*/
+
+#light{
+  background-color: #fff;
+  color: #000;
+}
+
+#dark{
+  background-color: #000;
+  color: #fff;
+}

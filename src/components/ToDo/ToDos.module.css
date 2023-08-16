@@ -1,0 +1,33 @@
+.toDos{
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.item{
+    margin: 5px;
+}
+
+.doneToDo{
+    background-color: #42bfb5;
+}
+
+.unDoneToDo{
+    border: 1px solid green;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.doneCheckbox{
+    transform: scale(2);
+}
+
+.unDoneToDo:hover{
+    background-color: #42bfb5;
+}
